@@ -17,7 +17,13 @@
     echo "<h1>My Program</h1>\n";
     echo "<p>My Variable is = ".$myVariable."</p>\n";
     ?>
-    
+    if $myVariable=L ;
+       print(Your large pizza is $6)
+    elseif $myVariable=XL
+      print(Your extra large pizza is $10)
+     
+     
+     
   </body>
   
 </html>
