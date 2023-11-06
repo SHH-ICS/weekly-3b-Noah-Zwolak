@@ -8,25 +8,19 @@
   </head>
 
   <body>
-    
-    
-      <?php
-    $Topping = "";
-    if ( isset( $_POST['Topping'] ) ){
-      $myVariable = $_POST['Topping'];
+  <?php
+    $myVariable = "";
+    if ( isset( $_POST['myVariable'] ) ){
+      $myVariable = $_POST['myVariable'];
     }
     echo "<h1>My Program</h1>\n";
-    echo "<p>Number of toppings is  ".$Topping."</p>\n";
+    echo "<p>My Variable is = ".$myVariable."</p>\n";
     ?>
-    <?php
-if $Topping = 1;
-print(Your one topping is $1)
-elseif $Topping = 2 ;
-print(Your two toppings are $1.75 )
-elseif $Topping = 3;
-print(Your toppings cost $2.50)
-else print(Your for toppings are $3.35)
-  ?>
+    if $myVariable=large ;
+       print(Your large pizza is $6)
+    elseif $myVariable= Extra large;
+      print(Your extra large pizza is $10)
+
 </body>
   
 </html>
