@@ -16,8 +16,9 @@
       $myVariable = $_POST['Topping'];
     }
     echo "<h1>My Program</h1>\n";
-    echo "<p>My Variable is = ".$Topping."</p>\n";
+    echo "<p>Number of toppings is  ".$Topping."</p>\n";
     ?>
+    <?php
 if $Topping = 1;
 print(Your one topping is $1)
 elseif $Topping = 2 ;
@@ -25,6 +26,7 @@ print(Your two toppings are $1.75 )
 elseif $Topping = 3;
 print(Your toppings cost $2.50)
 else print(Your for toppings are $3.35)
-  </body>
+  ?>
+</body>
   
 </html>
