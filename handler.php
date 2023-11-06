@@ -9,19 +9,7 @@
 
   <body>
     
-    <?php
-    $myVariable = "";
-    if ( isset( $_POST['myVariable'] ) ){
-      $myVariable = $_POST['myVariable'];
-    }
-    echo "<h1>My Program</h1>\n";
-    echo "<p>My Variable is = ".$myVariable."</p>\n";
-    ?>
-    if $myVariable=large ;
-       print(Your large pizza is $6)
-    elseif $myVariable= Extra large;
-      print(Your extra large pizza is $10)
-     
+    
       <?php
     $Topping = "";
     if ( isset( $_POST['Topping'] ) ){
